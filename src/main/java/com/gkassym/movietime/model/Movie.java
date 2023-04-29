@@ -47,4 +47,92 @@ public class Movie {
 	
 	@Column(name = "poster")
 	private String poster;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Date getReleaseDate() {
+		return releaseDate;
+	}
+
+	public void setReleaseDate(Date releaseDate) {
+		this.releaseDate = releaseDate;
+	}
+
+	public String getCountryOrigin() {
+		return countryOrigin;
+	}
+
+	public void setCountryOrigin(String countryOrigin) {
+		this.countryOrigin = countryOrigin;
+	}
+
+	public String getDirector() {
+		return director;
+	}
+
+	public void setDirector(String director) {
+		this.director = director;
+	}
+
+	public String getWriters() {
+		return writers;
+	}
+
+	public void setWriters(String writers) {
+		this.writers = writers;
+	}
+
+	public Double getBudget() {
+		return budget;
+	}
+
+	public void setBudget(Double budget) {
+		this.budget = budget;
+	}
+
+	public Double getGrossWorldwide() {
+		return grossWorldwide;
+	}
+
+	public void setGrossWorldwide(Double grossWorldwide) {
+		this.grossWorldwide = grossWorldwide;
+	}
+
+	public Integer getRuntime() {
+		return runtime;
+	}
+
+	public void setRuntime(Integer runtime) {
+		this.runtime = runtime;
+	}
+
+	public int getRating() {
+		return rating;
+	}
+
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+
+	public String getPoster() {
+		return poster;
+	}
+
+	public void setPoster(String poster) {
+		this.poster = poster;
+	}
 }
